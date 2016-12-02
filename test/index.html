@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width,user-scalable=no"/>
+   <link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+   <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+   <title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Single-Page</title>
+</head>
+
+<body>
+   <div class="ui-page" id="main">
+      <div class="ui-header">
+         <h1>Find Device</h1>
+      </div><!-- /header -->
+
+      <div class="ui-content">
+      <select id="address"><option>Select Device</option></select>
+      
+    <div style="float:left; margin: 10px 0px 20px 22px;"><button id="btnSearch" style="width:140px;height:50px;font-size:21pt;text-align:left"><div style="margin:0px 0px 0px 10px">Search</div></button></div>
+	<div style="float:right; margin: 10px 22px 20px 0px ;"><button id="btnService" style="width:140px;height:50px;font-size:21pt;text-align:right"><div style="margin:0px 7px 0px 5px">Connect</div></button></div>
+      <div style="margin : 180px 0px 20px 0px""><center><button id="findwatch" style="width:180px;height:80px;font-size:17pt">FindWatch</button></center></div>
+      <center><button id="btnStop"  style="width:180px;height:80px;font-size:17pt">Stop</button></center>
+	   <!--hided factor -->
+      <div id="snackbar">Some</div>
+      </div><!-- /content -->
+      
+   </div><!-- /page -->
+
+   <script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+   <script src="./js/main.js"></script>
+</body>
+</html>

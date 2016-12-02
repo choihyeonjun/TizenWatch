@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/blue231" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="ZrpHQfQm7m.blue231" package="ZrpHQfQm7m" required_version="2.3.1"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>blue231</name>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.gap"/>
+    <tizen:privilege name="http://tizen.org/privilege/bluetooth.spp"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:privilege name="http://tizen.org/privilege/volume.set"/>
+    <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="disable" background-support="enable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
